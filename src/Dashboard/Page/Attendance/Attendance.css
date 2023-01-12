@@ -1,0 +1,44 @@
+.title-right button {
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.1556px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1E2772;
+    box-shadow: 0px 12.1167px 24.2334px rgba(1, 11, 253, 0.12);
+    border-radius: 8.07781px;
+    padding: 13px 36px;
+    margin-right: 57px;
+}
+
+.title-right {
+    text-align: end;
+}
+
+.attendance-area {
+    background: #D2D2D2;
+}
+
+.input-tex-box {
+    display: flex;
+    margin-bottom: 39px;
+}
+
+.input-area {
+    width: 252px;
+    margin-right: 8px;
+}
+
+.input-area input, .input-area select {
+    width: 100%;
+    padding: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.1556px;
+    line-height: 24px;
+    color: #555555;
+    height: 100%;
+}

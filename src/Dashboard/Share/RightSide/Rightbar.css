@@ -1,0 +1,65 @@
+.right-area {
+    background: #1E2772;
+    width: 100%;
+    position: sticky;
+}
+
+h1.logo {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 35px;
+/* or 97% */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 46px 0 100px 0;
+}
+
+.menu-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area ul li img{width: 26px;margin-right: 22px;padding: 11px 0;}
+
+.menu-area ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    padding-left: 95px;
+}
+
+.menu-area ul li a:hover {
+    background: rgba(238, 238, 238, 0.2);
+    border-radius: 8px;
+}
+
+/* logout css */
+
+.logout {
+    margin-left: 97px;
+    margin-top: 86px;
+}
+
+img.logout-icon {
+    width: 20px;
+    margin-right: 25px;
+}
+
+.logout button {
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+}
