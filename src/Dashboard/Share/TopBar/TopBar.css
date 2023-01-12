@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 11px 0;
 }
 
 .icon-search svg {
@@ -39,8 +40,8 @@
 }
 
 .user-img img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-left: 58px;
 }
@@ -49,8 +50,6 @@
     font-size: 20px;
 }
 
-.celander {
-}
 
 .notification svg {
     font-size: 17px;
@@ -82,4 +81,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.col-md-3.left-side {
+    padding: 0;
+}
+
+.col-md-9.right-side {
+    padding: 0;
 }

@@ -1,6 +1,6 @@
 .dashboard-area{
     background: #F4F4F4;
-
+    padding: 0 30px;
 }
 
 /* dashboard start */
@@ -111,3 +111,79 @@ p.section-title {
 
 /* expense-area start*/
 
+.expense-part {
+    margin-top: 130px;
+    padding-bottom: 80px;
+}
+
+p.title-expense {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+.progress-bar-area {
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 273px;
+    height: 344px;
+}
+
+.progress-bar-area > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+.progress-bar-area h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1C1C1C;
+    margin-bottom: 12px;
+}
+
+.progress-ba p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.progress-ba {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.progress-ba .progress {
+    width: 163px;
+    height: 28px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.progress-ba .progress-bar {background: #C6C7F8;}
+
+.progress-ba h4 {
+    position: absolute;
+    font-size: 18px;
+    color: #1C1C1C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    top: 28px;
+    right: 76px;
+}
+
+.progress-ba h4 span {
+    color: rgba(0, 0, 0, 0.2);
+    margin: 0 4px;
+    display: inline-block;
+}

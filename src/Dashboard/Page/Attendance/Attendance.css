@@ -1,3 +1,8 @@
+.attendance-area {
+    background: #D2D2D2;
+    padding: 0 30px;
+}
+
 .title-right button {
     border: none;
     font-family: 'Poppins';
@@ -15,6 +20,11 @@
 
 .title-right {
     text-align: end;
+}
+
+.employee-area1{
+    background-color: #fff;
+    padding: 0 10px;
 }
 
 .attendance-area {
@@ -41,4 +51,83 @@
     line-height: 24px;
     color: #555555;
     height: 100%;
+}
+
+.employee table {
+    width: 100%;
+}
+
+.employee table {
+    width: 100%;
+}
+
+.employee table thead tr {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    height: 46px;
+}
+
+.employee table thead {border-bottom: 1px solid rgba(0, 0, 0, 0.05);}
+
+.employee table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    height: 46px;
+}
+
+.employee table tbody tr td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #1C1C1C;
+}
+
+td span.green-btu {
+    background: #4AA785;
+    border-radius: 18px;
+    padding: 0px 16px;
+    display: inline-block;
+    color: #fff;
+}
+
+span.red-btu {
+    background: #E25959;
+    border-radius: 18px;
+    padding: 0px 16px;
+    display: inline-block;
+    color: #fff;
+}
+
+.employee {
+    margin-bottom: 123px;
+}
+
+/*  pagination area */
+
+.pagination-area{
+    text-align: right;
+    padding: 0 50px;
+}
+
+.pagination-area button.active{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.pagination-area button {
+    margin: 0 4px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #1C1C1C;
+    font-size: 12px;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 111px;
+    
 }

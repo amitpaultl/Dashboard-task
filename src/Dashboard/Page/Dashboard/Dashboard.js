@@ -10,7 +10,13 @@ import prople6 from '../../Image/image 9.png'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const Dashboard = () => {
+
+    // progress bar value
+
     const now = 60;
+    const now2 = 10;
+    const now3 = 25;
+
     return (
         <div>
             <div className="dashboard-area">
@@ -109,8 +115,26 @@ const Dashboard = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="progress">
-                                <ProgressBar now={now} label={`${now}%`} />;
+                                <div className="progress-bar-area">
+                                    <p>Total task</p>
+                                    <h5>112</h5>
+                                    <div className="progress-ba">
+                                        <p>Completed</p>
+                                        <ProgressBar now={now}  />
+                                        <h4><span>50/</span>80</h4>
+                                    </div>
+                                    <div className="progress-ba">
+                                        <p>In Progress</p>
+                                        <ProgressBar now={now2}  />
+                                        <h4>15<span>/</span>112</h4>
+
+                                    </div>
+                                    <div className="progress-ba">
+                                        <p>Pending</p>
+                                        <ProgressBar now={now3}  />
+                                        <h4>30<span>/</span>80</h4>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -16,7 +16,7 @@ const RightBar = () => {
                     <div className="menu-area">
                         <ul>
                             <li>
-                                <Link>
+                                <Link to={'/'}>
                                     <img src={iconMenu} alt="" />
                                     Dashboard
                                 </Link>

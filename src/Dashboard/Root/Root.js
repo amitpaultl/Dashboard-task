@@ -8,10 +8,10 @@ const Root = () => {
         <div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 left-side">
                         <RightBar></RightBar>
                     </div>
-                    <div className="col-md-9">
+                    <div className="col-md-9 right-side">
                         <TopBar></TopBar>
                         <Outlet></Outlet>
                     </div>
