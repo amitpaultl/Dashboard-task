@@ -93,6 +93,13 @@
     padding: 0;
 }
 
+span.toggle-btu {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 85px;
+    display: none;
+}
+
 
 /* // Apply styles starting from medium devices and up to extra large devices */
 @media (min-width: 768px) and (max-width: 1024.98px) { 
@@ -117,4 +124,12 @@
         display: block;
         text-align: center;
     }
+ }
+
+ @media (min-width: 100px) and (max-width: 767.98px) {
+    span.toggle-btu {
+   
+        display: inline-block;
+    }
+
  }

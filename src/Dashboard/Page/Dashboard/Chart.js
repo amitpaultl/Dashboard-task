@@ -1,6 +1,10 @@
 
 import React, { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, ReferenceLine } from 'recharts';
+
+// import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+
 
 const Chart = () => {
 
@@ -63,22 +67,42 @@ const Chart = () => {
                 <button>Export Details</button>
             </div>
             <h3 className="tk">
-            ৳45,000
+                ৳45,000
             </h3>
 
-            <AreaChart width={516} height={150} data={data}
-                margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
-                <defs>
-                    <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
-                        <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
-                    </linearGradient>
 
-                </defs>
+            
+            <ResponsiveContainer width='100%' height={200}>
+                <AreaChart width={516} height={150} data={data}
+                    margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+                </AreaChart>
+            </ResponsiveContainer>
 
-                <Tooltip />
-                <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
-            </AreaChart>
+            {/* <ResponsiveContainer width={500} height={100}>
+                <LineChart
+                    width={500}
+                    height={300}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
+                    <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                </LineChart>
+            </ResponsiveContainer> */}
 
         </div>
     );

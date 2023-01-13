@@ -22,45 +22,51 @@ const Attendance = () => {
                         </div>
                     </div>
 
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="input-tex-box">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="input-tex-box">
 
-                                    <div className="input-area">
-                                        <input type="date" />
-                                    </div>
-                                    <div className="input-area">
-                                        <input type="text" placeholder='Department' />
-                                    </div>
-                                    <div className="input-area">
-                                        <select >
-                                            <option value="Attendance">Attendance</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                        </select>
-
-                                    </div>
-                                    <div className="input-area">
-                                        <select >
-                                            <option value="Present">Present</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                        </select>
-                                    </div>
-
+                                <div className="input-area">
+                                    <input type="date" />
+                                </div>
+                                <div className="input-area">
+                                    <input type="text" placeholder='Department' />
+                                </div>
+                                <div className="input-area">
+                                    <select >
+                                        <option value="Attendance">Attendance</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
 
                                 </div>
+                                <div className="input-area">
+                                    <select >
+                                        <option value="Present">Present</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+
+
                             </div>
+                        </div>
 
-                            <div className="col-md-12">
-                                <div className="input-tex-box">
+                        <div className="col-md-12">
+                            <div className="input-tex-box">
 
-                                    <div className="input-area">
+                                
+
+                                    <div className="input-area ">
                                         <input type="text" placeholder='Check In' />
                                     </div>
                                     <div className="input-area">
                                         <input type="text" placeholder='Location' />
                                     </div>
+                             
+
+
+                                
                                     <div className="input-area">
                                         <select >
                                             <option value="Attendance">Designation</option>
@@ -76,25 +82,27 @@ const Attendance = () => {
                                             <option value="2">2</option>
                                         </select>
                                     </div>
-                                </div>
+                               
+
                             </div>
                         </div>
+                    </div>
                     <div className="employee-area1">
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="employee">
-                                    <table>
+                                <div className="employee table-responsive">
+                                    <table class="table">
                                         <thead>
                                             <tr>
-                                                <th><input type="checkbox" /></th>
-                                                <th>Employee Name</th>
-                                                <th>Department</th>
-                                                <th>Check in</th>
-                                                <th>Check Out</th>
-                                                <th>Remark</th>
-                                                <th>Hours</th>
-                                                <th>Overtime</th>
-                                                <th>Action</th>
+                                                <th scope="col" ><input type="checkbox" /></th>
+                                                <th scope="col" >Employee Name</th>
+                                                <th scope="col" >Department</th>
+                                                <th scope="col" >Check in</th>
+                                                <th scope="col" >Check Out</th>
+                                                <th scope="col" >Remark</th>
+                                                <th scope="col" >Hours</th>
+                                                <th scope="col" >Overtime</th>
+                                                <th scope="col" >Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -212,6 +220,9 @@ const Attendance = () => {
 
                                         </tbody>
                                     </table>
+
+
+
                                 </div>
                             </div>
                             {/* pagination area */}

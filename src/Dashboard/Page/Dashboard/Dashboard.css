@@ -259,9 +259,7 @@ h3.tk {
     margin-bottom: 40px;
 }
 
-.recharts-wrapper {
-    border-bottom: 1px solid;
-}
+
 
 /* responsive */
 
@@ -269,5 +267,34 @@ h3.tk {
     .progress-bar-area {
           width: auto;
       
+    }
+
+    .title-right button{
+        margin-right: 7px;
+        padding: 8px 19px;
+    }
+ }
+
+ @media (min-width: 268px) and (max-width: 839.98px) { 
+    .input-tex-box {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .input-area {
+        width: auto;
+        margin-bottom: 30px;
+    }
+ }
+
+ @media (min-width: 268px) and (max-width: 767.98px) { 
+    .title-right {
+        text-align: revert;
+        margin-bottom: 31px;
+    }
+ }
+ @media (min-width: 991px) and (max-width: 1247.98px) { 
+    .view-count {
+        display: block;
     }
  }

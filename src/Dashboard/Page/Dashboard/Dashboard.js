@@ -112,7 +112,7 @@ const Dashboard = () => {
                             <div className="col-md-7">
                                 <div className="expense-area">
                                     <p className='title-expense'>Expense Report</p>
-                                    {/* <Chart></Chart> */}
+                                    <Chart></Chart>
                                 </div>
                             </div>
                             <div className="col-md-5">

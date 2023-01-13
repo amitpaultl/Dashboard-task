@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import iconMenu from '../../Image/Vector.png'
 import iconMenu2 from '../../Image/Vector1.png'
 import iconMenu3 from '../../Image/GearSix.png'
 import Accordion from 'react-bootstrap/Accordion';
 import './Rightbar.css'
+import { context } from '../../Context/context';
 
 const RightBar = () => {
+
+    const {btu} = useContext(context)
+
+    console.log(btu);
     return (
-        <div className="right-area">
-            <div className="right-area">
+        <div className="right-area" style={{left: btu ?  '-256px' :  "0"}}>
+            <div className="">
                 <div>
                     {/* logo area */}
                     <h1 className="logo">Place A Logo </h1>

@@ -114,6 +114,8 @@ ul.accrd li {
     color: #fff;
 }
 
+/* responsive */
+
 @media (min-width: 100px) and (max-width: 1000.98px) { 
     .menu-area ul li a {
        
@@ -124,4 +126,21 @@ ul.accrd li {
         padding-left: 20px;
         
     }
+
+    ul.accrd {
+        margin-left: 5px;
+    }
+ }
+
+ @media (min-width: 100px) and (max-width: 767.98px) {
+    .right-area {
+        background: #1E2772;
+        width: 255px;
+        position: absolute;
+        left: -256px;
+        top: 0;
+        z-index: 8;
+        height: auto;
+    } 
+
  }
