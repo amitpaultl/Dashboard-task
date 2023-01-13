@@ -24,6 +24,8 @@
     font-size: 18px;
 }
 
+
+
 .icon-search {
     position: absolute;
     top: 2px;
@@ -90,3 +92,29 @@
 .col-md-9.right-side {
     padding: 0;
 }
+
+
+/* // Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 768px) and (max-width: 1024.98px) { 
+    .search-area {
+        margin-left: 0px;
+    }
+ }
+
+
+/* // Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 268px) and (max-width: 934.98px) { 
+    .search-area input {
+
+        display: none;
+    }
+
+    .icon-search {
+        display: none;
+    }
+
+    .top-area {
+        display: block;
+        text-align: center;
+    }
+ }

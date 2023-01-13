@@ -8,6 +8,7 @@ import prople4 from '../../Image/image 7.png'
 import prople5 from '../../Image/image 8.png'
 import prople6 from '../../Image/image 9.png'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Chart from './Chart';
 
 const Dashboard = () => {
 
@@ -24,7 +25,7 @@ const Dashboard = () => {
                     <div className="row">
                         <h2 className='title-dashboard'>Dashboard</h2>
                         <p className='section-title'>Company Status</p>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="company-info">
                                 <img src={friend} alt="" />
                                 <span>Total Employee</span>
@@ -43,7 +44,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="company-info">
                                 <img src={friend} alt="" />
                                 <span>Total Employee</span>
@@ -62,7 +63,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="company-info">
                                 <img src={friend} alt="" />
                                 <span>Total Employee</span>
@@ -81,7 +82,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="company-info">
                                 <img src={friend} alt="" />
                                 <span>Total Employee</span>
@@ -108,13 +109,13 @@ const Dashboard = () => {
                 <div className="expense-part">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-7">
                                 <div className="expense-area">
                                     <p className='title-expense'>Expense Report</p>
-
+                                    {/* <Chart></Chart> */}
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-5">
                                 <div className="progress-bar-area">
                                     <p>Total task</p>
                                     <h5>112</h5>

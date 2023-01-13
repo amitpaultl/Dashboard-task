@@ -1,4 +1,4 @@
-.dashboard-area{
+.dashboard-area {
     background: #F4F4F4;
     padding: 0 30px;
 }
@@ -44,7 +44,7 @@ p.section-title {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    
+
     color: #000000;
 }
 
@@ -53,6 +53,7 @@ p.section-title {
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     padding: 26px 22px;
+    margin-bottom: 30px;
 }
 
 .company-info span {
@@ -76,7 +77,7 @@ p.section-title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    
+
     color: #000000;
 }
 
@@ -112,8 +113,13 @@ p.section-title {
 /* expense-area start*/
 
 .expense-part {
-    margin-top: 130px;
+    margin-top: 100px;
     padding-bottom: 80px;
+}
+
+.recharts-wrapper {
+    width: 516px;
+    height: 150px;
 }
 
 p.title-expense {
@@ -129,10 +135,10 @@ p.title-expense {
     border-radius: 5px;
     padding: 20px;
     width: 273px;
-    height: 344px;
+    height: 406px;
 }
 
-.progress-bar-area > p {
+.progress-bar-area>p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -169,7 +175,9 @@ p.title-expense {
     border-radius: 8px;
 }
 
-.progress-ba .progress-bar {background: #C6C7F8;}
+.progress-ba .progress-bar {
+    background: #C6C7F8;
+}
 
 .progress-ba h4 {
     position: absolute;
@@ -187,3 +195,79 @@ p.title-expense {
     margin: 0 4px;
     display: inline-block;
 }
+
+/* chart area */
+
+.date {
+    display: flex;
+}
+
+.date p {
+    margin: 0 13px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    color: #BCBCBC;
+}
+
+.date-btu button {
+    border: beige;
+    background: #1E2772;
+    color: #fff;
+    padding: 11px 16px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: -1px 11px 9px -5px rgba(174, 175, 199, 0.75);
+    -webkit-box-shadow: -1px 11px 9px -5px rgba(174, 175, 199, 0.75);
+    -moz-box-shadow: -1px 11px 9px -5px rgba(174, 175, 199, 0.75);
+}
+
+.date-btu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date p.active {
+    color: #000;
+}
+
+.date-btu button:after {
+    position: absolute;
+    width: 1px;
+    height: 65px;
+    left: 0;
+    top: -8px;
+    background: #1E2772;
+    content: '';
+}
+
+.expense-area {
+    background: #fff;
+    padding: 36px;
+    border-radius: 5px;
+}
+
+h3.tk {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+
+.recharts-wrapper {
+    border-bottom: 1px solid;
+}
+
+/* responsive */
+
+@media (min-width: 268px) and (max-width: 972.98px) { 
+    .progress-bar-area {
+          width: auto;
+      
+    }
+ }
