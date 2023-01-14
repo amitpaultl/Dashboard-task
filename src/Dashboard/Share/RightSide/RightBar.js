@@ -35,7 +35,7 @@ const RightBar = () => {
                             </li>
 
                             <li>
-                                <Link>
+                                <Link >
                                     <img src={iconMenu} alt="" />
                                     Leaves
                                 </Link>

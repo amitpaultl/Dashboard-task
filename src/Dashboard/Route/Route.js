@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Attendance from '../Page/Attendance/Attendance';
 import Dashboard from '../Page/Dashboard/Dashboard';
+
 import Root from '../Root/Root';
 
 const Route = createBrowserRouter([
@@ -16,7 +17,10 @@ const Route = createBrowserRouter([
             {
                 path: '/attendance',
                 element:<Attendance></Attendance>
-            }
+            },
+         
+            
+            
         ]
     }
 
